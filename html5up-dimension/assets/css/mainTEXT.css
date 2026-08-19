@@ -1,0 +1,88 @@
+@import url("fontawesome-all.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+
+body {
+  background: url('wallpaperflare.com_wallpaper.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Profile card */
+#profile-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  width: 320px;
+  margin: 8% auto;
+  padding: 2em;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Profile picture */
+.profile-pic {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1em;
+  border: 3px solid #fff;
+}
+
+/* Text styling */
+h1 {
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0.5em 0 0.2em;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+h3 {
+  font-weight: 300;
+  margin: 0.2em 0;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+p {
+  color: #ffb3b3;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+}
+
+/* Email icon */
+.email-icon {
+  margin: 0.5em 0 1em;
+  font-size: 1.2em;
+}
+
+/* Icons section */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+}
+
+.icons a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons a:hover {
+  color: #ffcc00;
+}
+
+.icons i {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+}
